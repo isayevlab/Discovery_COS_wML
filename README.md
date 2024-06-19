@@ -8,7 +8,7 @@ pip install ./requirements.txt
 Note: You have to have a licenced and installed version of AlvaDesc software to calculate the descriptors
 
 
-## contednt of this repo
+## File's description
 ```bash
 ├── Dataset_dHm.csv
 ├── Dataset_Tm.csv
@@ -23,8 +23,13 @@ Note: You have to have a licenced and installed version of AlvaDesc software to 
 ├── Test_mols.csv
 └── Test_mols_pred.csv
 ```
-The training sets for dHm and Tm are in Dataset_dHm.csv and Dataset_Tm.csv. The pretrained models serialized in pickle format are Model_dHm.pkl and Model_Tm.pkl.
+The training sets for dHm and Tm are in `Dataset_dHm.csv` and `Dataset_Tm.csv`. The pretrained models serialized in pickle format are `Model_dHm.pkl` and `Model_Tm.pkl`.
 
-The script Predict.py runs one of those models, calculates set of appropriate descriptors specified in SITable_Descriptors_dHm_list.csv (or SITable_Descriptors_Tm_list.csv) and makes predictions for set of input moecules.
-Example of input file is Test_mols.csv, Example of output is Test_mols_pred.csv
-Bash script wiht example of specificaton of input parameters is provided -- run_Predict.sh .
+The script `Predict.py` runs one of those models, calculates set of appropriate descriptors specified in `SITable_Descriptors_dHm_list.csv` (or `SITable_Descriptors_Tm_list.csv`)
+and makes predictions for set of input moecules.
+
+
+Example of input file is `Test_mols.csv`, example of output is `Test_mols_pred.csv`
+
+
+Bash script wiht example of specificaton of input parameters is provided -- `run_Predict.sh`.
