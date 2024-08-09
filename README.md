@@ -37,4 +37,8 @@ An example of input file is `Test_mols.csv`, an example of the output is `Test_m
 Bash script with an example of specification of input parameters is provided -- `run_Predict.sh`.
 
 If you use this data, please cite the following work:
-> Johnson, H. M.; Gusev, F.; Dull, J. T.; Seo, Y.; Priestley, R. D.; Isayev, O.; Rand, B. P. Discovery of Crystallizable Organic Semiconductors with Machine Learning. April 17, 2024. https://doi.org/10.26434/chemrxiv-2024-hkszt.
+
+>**Discovery of Crystallizable Organic Semiconductors with Machine Learning**
+>Holly M. Johnson, Filipp Gusev, Jordan T. Dull, Yejoon Seo, Rodney D. Priestley, Olexandr Isayev, and Barry P. Rand
+>*Journal of the American Chemical Society* **2024** *146* (31), 21583-21590
+>DOI: [10.1021/jacs.4c05245](https://pubs.acs.org/doi/10.1021/jacs.4c05245)
